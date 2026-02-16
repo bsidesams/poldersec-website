@@ -1,0 +1,36 @@
+{{ define "main" }}
+<div class="page-content">
+  <section class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-intro">{{ i18n "events_intro" }}</p>
+
+    <div class="reveal">
+      <div class="event-card">
+        <div class="event-year">2026</div>
+        <div class="event-info">
+          <h3>BSides Amsterdam 2026</h3>
+          <p>{{ i18n "events_2026_desc" }}</p>
+          <a href="https://bsidesams.org" class="btn" target="_blank" rel="noopener">bsidesams.org &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="event-card">
+        <div class="event-year">2025</div>
+        <div class="event-info">
+          <h3>BSides Amsterdam 2025</h3>
+          <p>{{ i18n "events_2025_desc" }}</p>
+          <a href="https://2025.bsidesams.org" class="btn" target="_blank" rel="noopener">2025.bsidesams.org &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="glow-divider"></div>
+
+    <div class="reveal" style="text-align: center;">
+      <p style="font-family: var(--font-mono); color: var(--text-secondary); font-size: 0.95rem;">{{ i18n "events_more" }} <a href="{{ "contact/" | relLangURL }}">{{ i18n "events_contact" }}</a>.</p>
+    </div>
+  </section>
+</div>
+{{ end }}

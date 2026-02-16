@@ -1,0 +1,89 @@
+{{ define "main" }}
+<div class="page-content">
+  <section class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-intro">{{ i18n "mission_intro" }}</p>
+
+    <div class="reveal">
+      <h2 style="margin-top: 2rem; font-size: 1.4rem;">{{ i18n "mission_aims_heading" }}</h2>
+      <div class="card-grid" style="margin-top: 1.5rem;">
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "flag" }}</div>
+          <h3>{{ i18n "card_promote" }}</h3>
+          <p>{{ i18n "mission_aims_promote" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "book" }}</div>
+          <h3>{{ i18n "card_knowledge" }}</h3>
+          <p>{{ i18n "mission_aims_knowledge" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "shield" }}</div>
+          <h3>{{ i18n "card_adoption" }}</h3>
+          <p>{{ i18n "mission_aims_adoption" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "users" }}</div>
+          <h3>{{ i18n "card_inclusive" }}</h3>
+          <p>{{ i18n "mission_aims_inclusive" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "key" }}</div>
+          <h3>{{ i18n "card_ethical" }}</h3>
+          <p>{{ i18n "mission_aims_ethical" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "globe" }}</div>
+          <h3>{{ i18n "card_connect" }}</h3>
+          <p>{{ i18n "mission_aims_connect" }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="glow-divider"></div>
+
+    <div class="reveal">
+      <h2 style="font-size: 1.4rem;">{{ i18n "mission_how_heading" }}</h2>
+      <div class="card-grid" style="margin-top: 1.5rem;">
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "terminal" }}</div>
+          <h3>{{ i18n "card_events" }}</h3>
+          <p>{{ i18n "mission_how_events" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "wrench" }}</div>
+          <h3>{{ i18n "card_workshops" | safeHTML }}</h3>
+          <p>{{ i18n "mission_how_workshops" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "handshake" }}</div>
+          <h3>{{ i18n "card_meetups" }}</h3>
+          <p>{{ i18n "mission_how_meetups" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "graduation" }}</div>
+          <h3>{{ i18n "card_talent" }}</h3>
+          <p>{{ i18n "mission_how_talent" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "search" }}</div>
+          <h3>{{ i18n "card_research" | safeHTML }}</h3>
+          <p>{{ i18n "mission_how_research" }}</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ partial "icon.html" "globe" }}</div>
+          <h3>{{ i18n "card_international" }}</h3>
+          <p>{{ i18n "mission_how_international" }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="glow-divider"></div>
+
+    <div class="reveal" style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem; margin-top: 2rem;">
+      <p style="font-family: var(--font-mono); color: var(--accent-cyan); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;">// Note</p>
+      <p style="color: var(--text-secondary);">{{ i18n "mission_nonprofit_note" }}</p>
+    </div>
+  </section>
+</div>
+{{ end }}

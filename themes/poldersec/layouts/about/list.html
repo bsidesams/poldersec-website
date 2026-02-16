@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="page-content">
+  <section class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-intro">{{ i18n "about_intro" }}</p>
+
+    <div class="reveal" style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem; margin-bottom: 3rem;">
+      <p style="color: var(--text-secondary); line-height: 1.8;">{{ i18n "about_body" }}</p>
+    </div>
+
+    <div class="glow-divider"></div>
+
+    <h2 class="section-title reveal">{{ i18n "about_founders" }}</h2>
+    <p class="section-intro reveal">{{ i18n "about_founders_intro" }}</p>
+
+    <div class="team-grid reveal">
+      <div class="team-member">
+        <h3>Hugo van den Toorn</h3>
+        <div class="role">{{ i18n "cofounder" }}</div>
+        <p>{{ i18n "about_hugo_desc" }}</p>
+      </div>
+      <div class="team-member">
+        <h3>Joey Dreijer</h3>
+        <div class="role">{{ i18n "cofounder" }}</div>
+        <p>{{ i18n "about_joey_desc" }}</p>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}

@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="page-content">
+  <section class="section">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-intro">{{ i18n "contact_intro" }}</p>
+
+    <div class="details-grid reveal">
+      <div class="detail-block">
+        <h3>{{ i18n "contact_foundation" }}</h3>
+        <ul>
+          <li>Legal name: Stichting Polder Security</li>
+          <li>KVK (Chamber of Commerce): <span class="placeholder">[KVK number]</span></li>
+          <li>RSIN/Fiscal number: <span class="placeholder">[RSIN number]</span></li>
+          <li>Date of establishment: <span class="placeholder">[Date]</span></li>
+        </ul>
+      </div>
+
+      <div class="detail-block">
+        <h3>{{ i18n "contact_address" }}</h3>
+        <ul>
+          <li><span class="placeholder">[Street and number]</span></li>
+          <li><span class="placeholder">[Postal code]</span> <span class="placeholder">[City]</span></li>
+          <li>The Netherlands</li>
+        </ul>
+      </div>
+
+      <div class="detail-block">
+        <h3>{{ i18n "contact_bank" }}</h3>
+        <ul>
+          <li>Account holder: Stichting Polder Security</li>
+          <li>IBAN: <span class="placeholder">[IBAN]</span></li>
+          <li>BIC: <span class="placeholder">[BIC/SWIFT]</span></li>
+          <li>Bank: <span class="placeholder">[Bank name]</span></li>
+        </ul>
+      </div>
+
+      <div class="detail-block">
+        <h3>{{ i18n "contact_contact" }}</h3>
+        <ul>
+          <li>Email: <span class="placeholder">[email@poldersecurity.nl]</span></li>
+          <li>Website: <a href="https://poldersecurity.nl">poldersecurity.nl</a></li>
+          <li>Twitter/X: <span class="placeholder">[@handle]</span></li>
+          <li>LinkedIn: <span class="placeholder">[LinkedIn URL]</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="glow-divider"></div>
+
+    <div class="reveal" style="background: var(--bg-card); border: 1px solid var(--border-color); padding: 2rem;">
+      <p style="font-family: var(--font-mono); color: var(--accent-cyan); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.75rem;">// Non-Profit Status</p>
+      <p style="color: var(--text-secondary);">{{ i18n "contact_nonprofit_note" }}</p>
+    </div>
+  </section>
+</div>
+{{ end }}

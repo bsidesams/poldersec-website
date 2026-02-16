@@ -1,0 +1,35 @@
+# Hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Go
+/vendor/
+go.sum
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+\#*\#
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Env
+.env
+.env.*

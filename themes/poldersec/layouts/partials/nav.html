@@ -1,0 +1,18 @@
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="{{ "" | relLangURL }}" class="nav-logo">// Polder Security</a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      {{ range .Site.Menus.main }}
+        <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+      {{ end }}
+      <li class="lang-switch">
+        {{ range .Site.Home.AllTranslations }}
+          <a href="{{ .RelPermalink }}" class="lang-link {{ if eq .Language.Lang $.Language.Lang }}active{{ end }}">{{ .Language.LanguageName }}</a>
+        {{ end }}
+      </li>
+    </ul>
+  </div>
+</nav>

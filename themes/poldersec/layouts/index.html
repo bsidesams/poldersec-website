@@ -1,0 +1,61 @@
+{{ define "main" }}
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg">
+    <canvas id="particle-canvas"></canvas>
+  </div>
+  <div class="hero-content">
+    <h1 class="hero-glitch" data-text="Polder Security">Polder Security</h1>
+    <p class="hero-sub">
+      <span class="typed-text" data-text="{{ i18n "hero_typed" }}"></span><span class="typed-cursor"></span>
+    </p>
+    <div class="hero-tagline">
+      <p>{{ i18n "hero_tagline_1" | safeHTML }}</p>
+      <p style="margin-top: 0.75rem;">{{ i18n "hero_tagline_2" | safeHTML }}</p>
+    </div>
+    <div class="hero-cta">
+      <a href="{{ "mission/" | relLangURL }}" class="btn">{{ i18n "hero_btn_mission" }}</a>
+      <a href="{{ "events/" | relLangURL }}" class="btn btn-magenta">{{ i18n "hero_btn_events" }}</a>
+    </div>
+  </div>
+</section>
+
+<!-- Quick intro -->
+<section class="section reveal">
+  <h2 class="section-title">{{ i18n "home_whatwedo" }}</h2>
+  <p class="section-intro">{{ i18n "home_whatwedo_intro" }}</p>
+
+  <div class="card-grid">
+    <div class="card reveal">
+      <div class="card-icon">{{ partial "icon.html" "terminal" }}</div>
+      <h3>{{ i18n "home_events_title" | safeHTML }}</h3>
+      <p>{{ i18n "home_events_desc" }}</p>
+    </div>
+    <div class="card reveal">
+      <div class="card-icon">{{ partial "icon.html" "book" }}</div>
+      <h3>{{ i18n "home_education_title" | safeHTML }}</h3>
+      <p>{{ i18n "home_education_desc" }}</p>
+    </div>
+    <div class="card reveal">
+      <div class="card-icon">{{ partial "icon.html" "graduation" }}</div>
+      <h3>{{ i18n "home_talent_title" | safeHTML }}</h3>
+      <p>{{ i18n "home_talent_desc" }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- Upcoming Events Preview -->
+<div class="glow-divider"></div>
+<section class="section reveal">
+  <h2 class="section-title">{{ i18n "home_upcoming" }}</h2>
+  <div class="event-card">
+    <div class="event-year">2026</div>
+    <div class="event-info">
+      <h3>BSides Amsterdam 2026</h3>
+      <p>{{ i18n "home_bsides2026_desc" }}</p>
+      <a href="https://bsidesams.org" class="btn" target="_blank" rel="noopener">bsidesams.org &rarr;</a>
+    </div>
+  </div>
+</section>
+
+{{ end }}

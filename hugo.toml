@@ -1,0 +1,63 @@
+baseURL = 'https://poldersecurity.nl/'
+title = 'Polder Security'
+theme = 'poldersec'
+defaultContentLanguage = 'en'
+
+[params]
+  author = 'Stichting Polder Security'
+  legalName = 'Stichting Polder Security'
+
+[languages]
+  [languages.en]
+    languageCode = 'en'
+    languageName = 'EN'
+    weight = 1
+    [languages.en.params]
+      description = 'Stichting Polder Security. Strengthening the information security community through events, education, and engagement.'
+    [[languages.en.menu.main]]
+      name = 'Home'
+      url = '/'
+      weight = 1
+    [[languages.en.menu.main]]
+      name = 'Mission'
+      url = '/mission/'
+      weight = 2
+    [[languages.en.menu.main]]
+      name = 'Events'
+      url = '/events/'
+      weight = 3
+    [[languages.en.menu.main]]
+      name = 'About'
+      url = '/about/'
+      weight = 4
+    [[languages.en.menu.main]]
+      name = 'Contact'
+      url = '/contact/'
+      weight = 5
+
+  [languages.nl]
+    languageCode = 'nl'
+    languageName = 'NL'
+    weight = 2
+    [languages.nl.params]
+      description = 'Stichting Polder Security. Versterking van de informatiebeveiligingscommunity door evenementen, educatie en betrokkenheid.'
+    [[languages.nl.menu.main]]
+      name = 'Home'
+      url = '/nl/'
+      weight = 1
+    [[languages.nl.menu.main]]
+      name = 'Missie'
+      url = '/nl/mission/'
+      weight = 2
+    [[languages.nl.menu.main]]
+      name = 'Evenementen'
+      url = '/nl/events/'
+      weight = 3
+    [[languages.nl.menu.main]]
+      name = 'Over Ons'
+      url = '/nl/about/'
+      weight = 4
+    [[languages.nl.menu.main]]
+      name = 'Contact'
+      url = '/nl/contact/'
+      weight = 5

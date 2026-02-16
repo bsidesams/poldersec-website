@@ -1,0 +1,9 @@
+name = "Polder Security Theme"
+license = "MIT"
+licenselink = ""
+description = "Custom cyberpunk theme for Stichting Polder Security"
+tags = ["cyberpunk", "security", "dark"]
+min_version = "0.100.0"
+
+[author]
+  name = "Polder Security"

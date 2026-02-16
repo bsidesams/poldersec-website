@@ -1,0 +1,193 @@
+# === Hero ===
+[hero_tagline_1]
+other = 'Stichting Polder Security (PS) is een non-profit stichting die community-gedreven informatiebeveiligingsevenementen, educatie en betrokkenheid organiseert in Nederland en daarbuiten.'
+
+[hero_tagline_2]
+other = 'De naam verwijst naar het Nederlandse <em>poldermodel</em>, een traditie van consensus door samenwerking. Dit weerspiegelt hoe wij geloven dat de beveiligingscommunity het beste werkt: samen.'
+
+[hero_typed]
+other = "De infosec-community versterken."
+
+[hero_btn_mission]
+other = "Onze Missie"
+
+[hero_btn_events]
+other = "Evenementen"
+
+# === Home: What We Do ===
+[home_whatwedo]
+other = "Wat We Doen"
+
+[home_whatwedo_intro]
+other = "Polder Security (PS) bestaat om iets terug te geven aan de informatiebeveiligingscommunity. We organiseren evenementen zoals BSides Amsterdam, geven workshops, CTF-competities en bouwen bruggen tussen studenten, professionals en organisaties."
+
+[home_events_title]
+other = "Community Evenementen"
+
+[home_events_desc]
+other = "Van BSides Amsterdam tot lokale meetups, we creëren plekken waar hackers, bouwers en verdedigers samenkomen om kennis te delen."
+
+[home_education_title]
+other = "Educatie &amp; Onderzoek"
+
+[home_education_desc]
+other = "Praktische workshops, CTF-competities en gepubliceerd onderzoek om beveiligingskennis op alle niveaus te bevorderen."
+
+[home_talent_title]
+other = "Talentontwikkeling"
+
+[home_talent_desc]
+other = "Mentoring, beurzen en samenwerkingen met onderwijsinstellingen om de volgende generatie beveiligingsprofessionals op te leiden."
+
+[home_upcoming]
+other = "Aankomend"
+
+[home_bsides2026_desc]
+other = "De community-gedreven infosec-conferentie keert terug. Talks, workshops, villages en CTF; door de community, voor de community."
+
+# === Mission ===
+[mission_intro]
+other = "Stichting Polder Security is een non-profit stichting die de informatiebeveiligingscommunity wil versterken door evenementen, educatie en betrokkenheid."
+
+[mission_aims_heading]
+other = "De Stichting Streeft Naar"
+
+[mission_aims_promote]
+other = "Het behartigen van de belangen van professionals, studenten en enthousiastelingen op het gebied van informatiebeveiliging en technologie."
+
+[mission_aims_knowledge]
+other = "Het verspreiden van kennis over cybersecurity en aanverwante disciplines."
+
+[mission_aims_adoption]
+other = "Het stimuleren van de toepassing van informatiebeveiliging bij bedrijven, overheid, onderwijs en het maatschappelijk middenveld."
+
+[mission_aims_inclusive]
+other = "Het bevorderen van een inclusieve community waar mensen van alle achtergronden en ervaringsniveaus kunnen deelnemen."
+
+[mission_aims_ethical]
+other = "Het bevorderen van verantwoord beveiligingsonderzoek en ethische praktijken binnen de community."
+
+[mission_aims_connect]
+other = "Het verbeteren van verbindingen tussen studenten, professionals en organisaties, nationaal en internationaal."
+
+[mission_how_heading]
+other = "Hoe We Deze Doelen Nastreven"
+
+[mission_how_events]
+other = "Het organiseren en ondersteunen van community-gedreven infosec-evenementen, waaronder BSides Amsterdam."
+
+[mission_how_workshops]
+other = "Praktische workshops, CTF-competities en trainingen die praktische vaardigheden opbouwen."
+
+[mission_how_meetups]
+other = "Het stimuleren, initiëren en organiseren van meetups om de community het hele jaar verbonden te houden."
+
+[mission_how_talent]
+other = "Het ondersteunen van talent door middel van mentoring en beurzenprogramma's voor de volgende generatie."
+
+[mission_how_research]
+other = "Het publiceren van educatieve content, beveiligingsonderzoek en samenwerking met onderwijsinstellingen."
+
+[mission_how_international]
+other = "Het onderhouden van contacten met nationale en internationale organisaties met vergelijkbare doelstellingen."
+
+[mission_nonprofit_note]
+other = "Stichting Polder Security heeft niet ten doel winst te maken. Eventuele overschotten worden uitsluitend aangewend ter bevordering van de statutaire doelstellingen van de stichting."
+
+# === Card titles (shared) ===
+[card_promote]
+other = "Belangen Behartigen"
+
+[card_knowledge]
+other = "Kennis Delen"
+
+[card_adoption]
+other = "Adoptie Stimuleren"
+
+[card_inclusive]
+other = "Inclusieve Community"
+
+[card_ethical]
+other = "Ethische Praktijken"
+
+[card_connect]
+other = "Mensen Verbinden"
+
+[card_events]
+other = "Evenementen"
+
+[card_workshops]
+other = "Workshops &amp; CTFs"
+
+[card_meetups]
+other = "Community Meetups"
+
+[card_talent]
+other = "Talentontwikkeling"
+
+[card_research]
+other = "Educatie &amp; Onderzoek"
+
+[card_international]
+other = "Internationale Samenwerking"
+
+# === Events ===
+[events_intro]
+other = "Polder Security (PS) organiseert en ondersteunt community-gedreven informatiebeveiligingsevenementen. Ons hoofdevenement is BSides Amsterdam; door de community, voor de community."
+
+[events_2026_desc]
+other = "De derde editie van Amsterdams community-gedreven infosec-conferentie. Verwacht innovatieve talks, praktische workshops, hacking villages en een competitieve CTF. BSides Amsterdam brengt hackers, onderzoekers, studenten en professionals samen voor een dag vol kennisdeling en communitybuilding."
+
+[events_2025_desc]
+other = "De tweede editie bracht de Nederlandse en internationale infosec-community samen voor een dag vol talks, workshops en netwerken. Een groeiend evenement dat de vraag naar community-gedreven beveiligingsconferenties in Nederland bewees."
+
+[events_more]
+other = "Meer evenementen volgen. Wil je samenwerken?"
+
+[events_contact]
+other = "Neem contact op"
+
+# === About ===
+[about_intro]
+other = "Stichting Polder Security is een Nederlandse non-profit stichting opgericht om BSides Amsterdam en andere informatiebeveiligingsevenementen te organiseren. PS bestaat om iets terug te geven aan de infosec-community: kennisdeling faciliteren, talent stimuleren en verbindingen leggen tussen mensen die om beveiliging geven."
+
+[about_body]
+other = "De stichting is opgericht met een helder doel: de Nederlandse infosec-community verdient een platform om samen te komen, onderzoek te delen, van elkaar te leren, en daar plezier bij te hebben. Wat begon met BSides Amsterdam is uitgegroeid tot een bredere missie: het ondersteunen van educatie, verantwoord onderzoek en communitybuilding in Nederland en daarbuiten."
+
+[about_founders]
+other = "Oprichters"
+
+[about_founders_intro]
+other = "Polder Security is opgericht door twee informatiebeveiligingsprofessionals met een gedeelde passie voor communitybuilding."
+
+[about_hugo_desc]
+other = "Informatiebeveiligingsprofessional en communitybuilder. Medeoprichter van Stichting Polder Security om een duurzaam platform te creëren voor de Nederlandse infosec-community."
+
+[about_joey_desc]
+other = "Informatiebeveiligingsprofessional met toewijding aan kennisdeling en community-betrokkenheid. Medeoprichter van Stichting Polder Security om de community dichter bij elkaar te brengen."
+
+[cofounder]
+other = "Medeoprichter"
+
+# === Contact ===
+[contact_intro]
+other = "Stichting Polder Security is een geregistreerde Nederlandse stichting zonder winstoogmerk. Hieronder vind je onze officiële gegevens."
+
+[contact_foundation]
+other = "Stichtingsgegevens"
+
+[contact_address]
+other = "Adres"
+
+[contact_bank]
+other = "Bankgegevens"
+
+[contact_contact]
+other = "Contact"
+
+[contact_nonprofit_note]
+other = "Stichting Polder Security heeft niet ten doel winst te maken. Eventuele overschotten worden uitsluitend aangewend ter bevordering van de statutaire doelstellingen. Bestuursleden ontvangen geen vergoeding voor hun werkzaamheden."
+
+# === Footer ===
+[footer_nonprofit]
+other = "Non-profit stichting"
